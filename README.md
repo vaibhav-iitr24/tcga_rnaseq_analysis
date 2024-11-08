@@ -5,3 +5,6 @@ unzip and get the real data file.
 2] Again two files created sample.tsv and run_metadat.tsv in data directory. sample.tsv contain information of sample and their runs and in run_metadata.tsv contain runs and their respective path.
 Here I used gdc_sample_sheet.tsv as a run file of sample.
 
+3] Scripts directory created in main directory, contain scripts for to obtain TPM Values and for BOX-plot.
+
+4]
