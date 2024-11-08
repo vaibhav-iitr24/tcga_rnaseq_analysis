@@ -8,7 +8,7 @@ Here I used gdc_sample_sheet.tsv as a run file of sample.
 3] Scripts directory created in main directory, contain scripts for to obtain TPM Values and for BOX-plot.
 
 4] Snakemake(tcga.smk) file created in main directory, required scripts and rules are incorporated. 
-First rule scripted to obtain data related to related to cancer type. You can just change the cancer type in shell as per requirement.
-Second rule scripted to obtain TPM value for a gene(NKX2-1) from files related to that required cancer type. Here I obtained for gene- NKX2-1 . You can change the gene in Expression.py file(in scripts) at line number 23(columns[1] == "required gene name") as per requirement.
+First rule scripted to obtain data related to cancer type. You can just change the cancer type in shell as per requirement.
+Second rule scripted to obtain TPM value for a gene(NKX2-1) from files related to that required cancer type. Here I obtained for gene- NKX2-1 . You can change the gene in Expression.py file(in scripts directory) at line number 23(columns[1] == "required gene name") as per requirement.
 Third rule is to obtain Box plot.
 Snakemake environment activated, run command " snakemake --snakefile tcga.smk generated_demo/NKX2-1_boxplot_demo.png -j1". Here demo is sample name you can change it as per requirement.
